@@ -81,7 +81,7 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
 
     final iconThemeData = IconThemeData(
       color: widget.enabled
-          ? _iconColor(theme, tileTheme)
+          ? _iconColor(ThemeData theme, ListTileThemeData tileTheme)
           : CupertinoColors.inactiveGray,
     );
 
